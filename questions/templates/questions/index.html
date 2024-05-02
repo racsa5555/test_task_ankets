@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link type="text/css" href="{% static 'questions/css/index.css' %}" rel="stylesheet" />
+</head>
+<body>
+    <div class = "main_container">
+        <h1>Создайте первое заведение</h1>
+        <ul class = "questions">
+            <li>
+                <p>Название компании</p>
+                <input type="text" id="name_company" placeholder="Введите название компании">
+            </li>
+            <li>
+                <p>Город</p>
+                <input type="text" id="city" placeholder="Введите город">
+            </li>
+            <li>
+                <p>Адрес</p>
+                <input type="text" id="address" placeholder="Введите адрес">
+            </li>
+            <li>
+                <p>Укажите тип бизнеса</p>
+                <select id="typeB">
+                    <option value="Общепит">Общепит</option>
+                    <option value="Ритейл">Ритейл</option>
+                    <option value="Услуги по записи">Услуги по записи
+                    </option>
+                </select>
+            </li>
+
+        </ul>
+        <button id = "next" onclick="nextState()">Далее</button>
+    </div>
+    <script src="{% static 'questions/js/index.js' %}"></script>
+</body>
+</html>

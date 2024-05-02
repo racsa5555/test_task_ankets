@@ -1,0 +1,42 @@
+
+.main_container {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    padding-top: 40px;
+}
+.questions {
+    list-style-type: none;
+    padding:0;
+}
+input {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+#next {
+    width: 70px;
+    height: 35px;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    float: right;
+
+}
+#next:hover{
+    background-color: rgb(96, 96, 225);
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+}
+
+span {
+    font-size: 18px;
+}
