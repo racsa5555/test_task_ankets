@@ -43,3 +43,5 @@ DB_PASS=...
 
 ### 9. Запустите Сервер
 `python3 manage.py runserver`
+
+# URL опросника: http://127.0.0.1:8000
